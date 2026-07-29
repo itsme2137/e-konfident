@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Konfident</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>E-KONFIDENT</h1>
+    <p class="subtitle">FORMULARZ ZGŁOSZENIOWY</p>
+
+    <section class="card">
+      <h2>Donos</h2>
+
+      <form action="https://formsubmit.co/animatronicsentertainment071@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="🚨 Nowy donos — E-Konfident">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+
+        <label for="reporter">Twój nick / imię (opcjonalnie)</label>
+        <input id="reporter" name="Zglaszajacy" type="text" placeholder="Wpisz nick">
+
+        <label for="target">Kogo dotyczy donos?</label>
+        <input id="target" name="Dotyczy" type="text" placeholder="Nick / nazwa" required>
+
+        <label for="reason">Powód</label>
+        <input id="reason" name="Powod" type="text" placeholder="Powód zgłoszenia" required>
+
+        <label for="description">Opis</label>
+        <textarea id="description" name="Opis" rows="7"
+          placeholder="Opisz sytuację..." required></textarea>
+
+        <label for="evidence">Dowód / link (opcjonalnie)</label>
+        <input id="evidence" name="Dowod" type="url" placeholder="https://...">
+
+        <button type="submit">WYŚLIJ DONOS</button>
+      </form>
+    </section>
+
+    <p class="footer">E-Konfident • Zgłaszaj tylko prawdziwe sytuacje.</p>
+  </main>
+</body>
+</html>
